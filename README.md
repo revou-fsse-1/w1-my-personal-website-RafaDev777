@@ -40,6 +40,12 @@ The plan was give some animation in section when scrolling, using CSS **transfor
 
 ### Process
 
-Experiment with skew and rotating succeed 17-01-2023.<br/>
-Method use in this experiment using 2 div as a plane first plane classed as skew-plane was used to distort the element inside it and the second plane classed as rotating plane that rotate and act as the pin point to position image inside the div.
+17-01-2023<br/>
+Experiment with skew and rotating.<br/>
+Method use in this experiment using 2 div as a plane first plane classed as skew-plane was used to distort the element inside it and the second plane classed as rotating plane that rotate and act as the pin point to position image inside the div. Further experiment will be executed by javascript event listener.
+
+<br/>
+
+18-01-2023<br/>
+Experiment with javascript event listener combined with css animation.<br/>
  
