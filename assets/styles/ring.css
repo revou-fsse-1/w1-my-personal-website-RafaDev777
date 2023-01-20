@@ -1,6 +1,5 @@
 .small {
-    width: 7.5vw;
-    
+    width: 7.5vw; 
 }
 
 
@@ -31,23 +30,23 @@
 }
 
 .rotating-plane {
-    background-color: aliceblue;
+    
     position: relative;
     width: 30vw;
     height: 30vw;
     
 }
 .skew-plane {
-    transform: skew(20deg, 25deg);
     left:20%;
     top:30%;
-    position:absolute;
+    position: absolute;
+
 }
 .ring-center-text {
     left:30%;
     top:30%;
     position:absolute;
-    font-size: 10vw;
+ 
 }
 @keyframes rotating {
     from {
@@ -63,5 +62,18 @@
     animation : rotating 20s linear infinite;
 }
 
+@keyframe skewing {
+    to {
+        transform: skew(20deg, 25deg);
+    }
+}
+
+.skewed {
+ /* make sure it stays put so we can see it! */
+
+    animation: skewing 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);  
+}
 
 

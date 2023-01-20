@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Rafael Personal Portfolio</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas-Neue|Montserrat">
 
     <link rel="stylesheet" type="text/css" href="./assets/styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="./assets/styles/global.css">
     <link rel="stylesheet" type="text/css" href="./assets/styles/ring.css">
+
+    <script src="/list.js"></script>
 </head>
 <body>
     <nav>
         <div class="logo-container">
-            <img class="logo">
+            <img class="logo" src="./assets/images/Logo.png">
         </div>
         <div class="nav-container">
             <ul>
@@ -23,40 +30,41 @@
             </ul>
         </div>
     </nav>
-    <!-- Stacking Image-->
-    <div class="stack-image container">
-        <img class="image-1">
-        <img class="image-2">
-    </div>
     <section id="home">
-        <div>
-            <div class="skew-plane">
+        <!-- <div id="ring">
+            <div class="skew-plane skewed">
                 <div class="rotating-plane rotating">
-                    <img src="./assets/images/logo test.jpg" class="top-left small" />
-                    <img src="./assets/images/logo test.jpg" class="top-right small" />
-                    <img src="./assets/images/logo test.jpg" class="bot-left small" />
-                    <img src="./assets/images/logo test.jpg" class="bot-right small" />
+                    <img src="./assets/images/logo.png" class="top-left small glow" />
+                    <img src="./assets/images/logo.png" class="top-right small glow" />
+                    <img src="./assets/images/logo.png" class="bot-left small glow" />
+                    <img src="./assets/images/logo.png" class="bot-right small glow" />
                 </div> 
             </div>
-            <h2 class="ring-center-text ">About</h2>
-        </div>
+        </div> -->
         <h1>
-            This is Home i think
+            Welcome
         </h1>
+        <p>Hello, I'm Rafael a newborn Full-stack Software Engineer. This is my website</p>
+        <button onclick="click">Test Me</button>
     </section>
     <section id="about">
         <h1>
-            This is About Section ?
+            About
         </h1>
+        <img class="self-potrait"/>
+        <p>I'm a full-stack web developer, ui/ux designer who specializes in front-end development. I make it my mission to translate user-focused design into pixel perfect website or application that run blazing fast.
+        </p>
     </section>
     <section id="contact"> 
         <h1>
-            This is contact section and all those social media card! Shield.io ftw !
-        
+            Feel free to contact me!
         </h1>
+        <img class="sc-med"/>
+        <img class="sc-med"/>
+        
     </section>
     <footer>
-        ©2023 Rafael Jonathan
+        <span>©2023 Rafael Jonathan</span>
     </footer>
 </body>
 </html>

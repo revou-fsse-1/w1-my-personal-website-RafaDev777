@@ -48,4 +48,9 @@ Method use in this experiment using 2 div as a plane first plane classed as skew
 
 18-01-2023<br/>
 Experiment with javascript event listener combined with css animation.<br/>
+The Method used in javascript was to add value X and Y in the transform :skew () and transform : rotate () atribute without using the keyframe unless, for the looping parts. The java script also handle the X position for each section so when the menu click it will be horizontali sliding, furthermore developement will be gesture by finger so wether scrolled horizontaly or vertically the slide will respond by sliding horizontali.
+
+19-01-2023<br/>
+trapezoid glassomorph navigation bar and horizontal slide section animation<br/>
+The design will have glassomorph finishin to enhance futuristic feel and maybe will have some glow effect ( not decided yet ).
  
